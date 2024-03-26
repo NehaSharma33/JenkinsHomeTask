@@ -17,7 +17,7 @@ maven "MAVEN3"
  stage('Build') {
             steps {
                 // Build the project using Maven
-                sh 'mvn clean install -f pom.xml'
+                bat 'mvn clean install -f pom.xml'
             }
         }
 
